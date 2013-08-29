@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+
+}
+body {
+    width: 1024px;
+    height: 768px;  
+    background-image: url("img/bg.jpg");
+    /*background-color: #5B92E5;*/
+    font-family: arial;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size:25px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+h2 span {
+    font-weight: bold;
+}
+header {
+    height: 380px;
+}
+
+.hexagon { 
+    width: 170px; 
+    height: 90px; 
+    background-color: #1D498B; 
+    position: relative; 
+} 
+.hexagon:before { 
+    content: ""; 
+    position: absolute; 
+    top: -45px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 85px solid transparent; 
+    border-right: 85px solid transparent; 
+    border-bottom: 45px solid #1D498B; 
+} 
+
+.hexagon:after { 
+    content: ""; 
+    position: absolute; 
+    bottom: -45px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 85px solid transparent; 
+    border-right: 85px solid transparent; 
+    border-top: 45px solid #1D498B; 
+}
+.program {
+    margin-right:10px;
+    float:left;
+}
+.report {
+    margin-right:10px;
+    float:left;
+}
+.pratical {
+    float: right;
+}
+#buttons_hexa {
+    width: 530px;
+    margin:auto;
+}
+#buttons_hexa_bot {
+    clear: both;
+    width: 350px;
+    margin:auto;
+    padding-top: 52px;
+}
+.webcast {
+    margin-right:10px;
+    float:left;    
+}
+.hrc {
+    float: right;
+}
+section {
+    color: white;
+    font-weight: bold;
+}
+article div a span  {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    width: 940px;
+    margin: auto;
+    padding-top: 130px;
+}
+.social-media {
+    height: 25px;
+    width: 120px;
+    float: right;
+}
+.link-social {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.flickr {
+    background-image: url("img/flickr.png");
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.youtube {
+    background-image: url("img/youtube.png");
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+}
+.twitter {
+    background-image: url("img/twitter.png");
+    width: 30px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+}
+.facebook {
+    background-image: url("img/facebook.png");
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.box-news {
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border: 1px solid #FFFFFF;
+    height: 80px;
+    margin-top: 10px;
+}
+.box-news p {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+.label {
+    color: white;
+}
