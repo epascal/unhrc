@@ -7,6 +7,9 @@
 		<link rel='stylesheet' href='style.css' type='text/css' />
 		<script type="text/javascript" src="twitterFetcher_v10_min.js"/>
 		<script type="text/javascript" src="cordova.js"/>
+		<script type="text/javascript">
+            app.initialize();
+        </script>
 		<script>
 		twitterFetcher.fetch('373102865654366208', '', 3, true, true, true, '', false, handleTweets);
 
