@@ -7,23 +7,6 @@
 		<link rel='stylesheet' href='style.css' type='text/css' />
 		<script type="text/javascript" src="twitterFetcher_v10_min.js"/>
 		<script type="text/javascript" src="cordova.js"/>
-		<script>
-		twitterFetcher.fetch('373102865654366208', '', 3, true, true, true, '', false, handleTweets);
-
-		function handleTweets(tweets){
-			  var x = tweets.length;
-			  var n = 0;
-			  var element = document.getElementById('news');
-			  var html = '';
-			  while(n < x) {
-				html += tweets[n] + '<br>';
-				n++;
-			  }
-			  //html += '</ul>';
-			  element.innerHTML = html;
-		}
-
-		</script>
 	</head>
 	<body>
 		<header>
@@ -33,7 +16,7 @@
 		<section>
 			<article id="buttons_hexa">
 				<div class="hexagon program">
-					<a href="javascript:window.plugins.childBrowser.showWebPage('http://mobiletestapp.ohchr.org/Lists/Calendar/Calendar view.aspx',
+					<a href="javascript:window.plugins.childBrowser.showWebPage('http://www.google.com',
                                         { showNavigationBar: true })" class="link-social">
 						<span>Programme of work</span>
 					</a>
