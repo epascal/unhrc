@@ -104,11 +104,11 @@ article div a span  {
 footer {
     width: 940px;
     margin: auto;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 .social-media {
-    height: 25px;
-    width: 120px;
+    height: 50px;
+    width: 240px;
     float: right;
 }
 .link-social {
@@ -119,28 +119,28 @@ footer {
 }
 .flickr {
     background-image: url("img/flickr.png");
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     float: right;
 }
 .youtube {
     background-image: url("img/youtube.png");
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     float: right;
     margin-right: 5px;
 }
 .twitter {
     background-image: url("img/twitter.png");
-    width: 30px;
-    height: 25px;
+    width: 60px;
+    height: 50px;
     float: right;
     margin-right: 5px;
 }
 .facebook {
     background-image: url("img/facebook.png");
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     float: left;
     margin-right: 5px;
 }
@@ -159,4 +159,5 @@ footer {
 }
 .label {
     color: white;
+	padding-top: 25px;
 }
