@@ -6,6 +6,25 @@
 		<title>United Nations Human Rights Council</title>
 		<link rel='stylesheet' href='style.css' type='text/css' />
 		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="twitterFetcher_v10_min.js"></script>
+		<script>
+		twitterFetcher.fetch('373102865654366208', '', 3, true, false, false, '', false, handleTweets);
+		//twitterFetcher.fetch('374988518600093696', '', 3, true, true, true, '', false, handleTweets);
+
+		function handleTweets(tweets){
+			  var x = tweets.length;
+			  var n = 0;
+			  var element = document.getElementById('news');
+			  var html = '';
+			  while(n < x) {
+				html += tweets[n] + '<br>';
+				n++;
+			  }
+			  //html += '</ul>';
+			  element.innerHTML = html;
+		}
+
+		</script>
 	</head>
 	<body>
 		<header>

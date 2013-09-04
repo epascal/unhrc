@@ -148,6 +148,7 @@ footer {
     border-radius: 10px; 
     -moz-border-radius: 10px; 
     -webkit-border-radius: 10px; 
+	overflow: auto;
     border: 1px solid #FFFFFF;
     height: 80px;
     margin-top: 10px;
