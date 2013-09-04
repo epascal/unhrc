@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<title>United Nations Human Rights Council</title>
 		<link rel='stylesheet' href='style.css' type='text/css' />
-		<script type="text/javascript" src="cordova.js"></script>
+		<!--script type="text/javascript" src="cordova.js"></script-->
 		<script type="text/javascript" src="twitterFetcher_v10_min.js"></script>
 		<script>
 		twitterFetcher.fetch('373102865654366208', '', 3, true, false, false, '', false, handleTweets);
@@ -17,7 +17,8 @@
 			  var element = document.getElementById('news');
 			  var html = '';
 			  while(n < x) {
-				html += tweets[n] + '<br>';
+			    var tweet = tweets[n].replace(new RegExp('a href="([^"]*)"','gi'), 'a href="javascript:window.open(\'$1\',\'_blank\', \'location=yes,enableviewportscale=yes,closebuttoncaption=Done\')"');
+				html += tweet;
 				n++;
 			  }
 			  //html += '</ul>';
@@ -34,7 +35,7 @@
 		<section>
 			<article id="buttons_hexa">
 				<div class="hexagon program">
-					<a href="javascript:window.open('http://mobiletestapp.ohchr.org/Lists/Calendar/','_blank', 'location=yes,enableviewportscale=yes,closebuttoncaption=Back')" class="link-social">
+					<a href="javascript:window.open('http://mobiletestapp.ohchr.org/Lists/Calendar/','_blank', 'location=yes,enableviewportscale=yes,closebuttoncaption=Done')" class="link-social">
 						<span>Programme of work</span>
 					</a>
 				</div>
