@@ -166,3 +166,8 @@ footer {
 .interact {
 	display: none;
 }
+
+a:link {color:#1D498B;}      /* unvisited link */
+a:visited {color:#1D498B;}  /* visited link */
+a:hover {color:#1D498B;}  /* mouse over link */
+a:active {color:#1D498B;}  /* selected link */
