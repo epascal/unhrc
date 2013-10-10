@@ -171,3 +171,19 @@ a:link {color:#1D498B;}      /* unvisited link */
 a:visited {color:#1D498B;}  /* visited link */
 a:hover {color:#1D498B;}  /* mouse over link */
 a:active {color:#1D498B;}  /* selected link */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+ 
+body {
+    width: 568px;
+    height: 320px;  
+    background-image: url("img/bgIphone5.png");
+    /*background-color: #5B92E5;*/
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+}
