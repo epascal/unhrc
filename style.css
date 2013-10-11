@@ -178,9 +178,10 @@ and (max-width : 568px)  {
  
 body {
     width: 568px;
-    height: 320px;  
+    /*height: 320px;  */
     background-image: url("img/bgIphone5.png");
-    /*background-color: #5B92E5;*/
+	background-repeat:no-repeat;
+    background-color: #5B92E5;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -250,16 +251,12 @@ article div a span  {
     padding-top: 10px;
     color: white;
     text-decoration: none;
+	font-size:11px;
 }
 footer {
     width: 522px;
     margin: auto;
-    padding-top: 41px;
-}
-.social-media {
-    height: 24px;
-    width: 115px;
-    float: right;
+    padding-top: 101px;
 }
 .link-social {
     display: block;
@@ -267,33 +264,7 @@ footer {
     height: 100%;
     text-decoration: none;
 }
-.flickr {
-    background-image: url("img/flickr.png");
-    width: 24px;
-    height: 24px;
-    float: right;
-}
-.youtube {
-    background-image: url("img/youtube.png");
-    width: 24px;
-    height: 24px;
-    float: right;
-    margin-right: 5px;
-}
-.twitter {
-    background-image: url("img/twitter.png");
-    width: 24px;
-    height: 24px;
-    float: right;
-    margin-right: 5px;
-}
-.facebook {
-    background-image: url("img/facebook.png");
-    width: 24px;
-    height: 24px;
-    float: left;
-    margin-right: 5px;
-}
+
 .box-news {
     border-radius: 10px; 
     -moz-border-radius: 10px; 
