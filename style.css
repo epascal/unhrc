@@ -180,7 +180,7 @@ footer {
 
 
 
-
+/*Iphone5*/
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
@@ -195,7 +195,7 @@ body {
 }
 
 header {
-    height: 128px;
+    height: 135px;
 }
 
 .hexagon { 
