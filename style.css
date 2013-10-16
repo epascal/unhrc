@@ -94,9 +94,9 @@ and (max-device-width : 1024px)  {
 
 body {
     width: 1024px;
-    height: 768px;  
+    /*height: 768px; */ 
     background-image: url("img/bg.png");
-    /*background-color: #5B92E5;*/
+    background-color: #5B92E5;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
