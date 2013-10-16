@@ -91,7 +91,12 @@ a:active {color:#1D498B;}  /* selected link */
 and (device-aspect-ratio: 3/4)
 or (device-aspect-ratio: 4/3)   {
 
+@media only screen and (device-aspect-ratio: 4/3)   {
 
+body {
+    height: 100%; 
+}
+}
 
 body {
     width: 1024px;
@@ -178,17 +183,20 @@ footer {
 
 }
 
-@media only screen and (device-aspect-ratio: 4/3)   {
 
-body {
-    height: 100%; 
-}
-}
 /* Iphone <5*/
 
 @media only screen 
 and (device-aspect-ratio: 2/3)
 or (device-aspect-ratio: 3/2) { 
+
+@media only screen 
+and (device-aspect-ratio: 3/2) { 
+body {
+    height: 100%;
+}
+}
+
 body {
     width: 480px;
     background-image: url("img/bgIphone4.png");
@@ -295,16 +303,19 @@ footer {
 }
 
 
-@media only screen 
-and (device-aspect-ratio: 3/2) { 
-body {
-    height: 100%;
-}
-}
+
 /*Iphone5*/
 @media only screen 
 and (device-aspect-ratio: 40/71)
 or (device-aspect-ratio: 71/40) {
+ 
+ @media only screen 
+and (device-aspect-ratio: 71/40) {
+ 
+body {
+    height: 100%;
+	}
+}
  
 body {
     width: 568px;
@@ -411,10 +422,4 @@ footer {
 
 }
 
-@media only screen 
-and (device-aspect-ratio: 71/40) {
- 
-body {
-    height: 100%;
-	}
-	}
+
