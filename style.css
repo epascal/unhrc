@@ -182,13 +182,13 @@ footer {
 
 /*Iphone5*/
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
+and (min-width : 320px) 
+and (max-width : 568px) {
  
 body {
     width: 568px;
-    /*height: 320px;  */
-    background-image: url("img/bgIphone5.png");
+    height: 320px;
+    /*background-image: url("img/bgIphone5.png");*/
 	background-repeat:no-repeat;
     background-color: #5B92E5;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
