@@ -605,6 +605,7 @@ and (device-aspect-ratio: 40/71) {
  
 body {
     width: 568px;
+	height:100%;
     background-image: url("img/bgIphone5.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -618,7 +619,7 @@ header {
 .hexagon { 
     width: 94px; 
     height: 50px; 
-    background-color: #1D498B; 
+    background-color: #ff0000/*1D498B*/; 
     position: relative; 
 } 
 .hexagon:before { 
