@@ -182,8 +182,8 @@ footer {
 
 /*Iphone5*/
 @media only screen 
-and (min-width : 640px) 
-and (max-width : 1136px) {
+and (min-width : 320px) 
+and (max-width : 568px) {
  
 body {
     width: 568px;
@@ -292,12 +292,13 @@ footer {
 }
 
 /* Iphone <5*/
+/*
 @media only screen 
 and (min-device-width : 640px) 
 and (max-device-width : 960px) { 
 body {
     width: 480px;
-    /*height: 320px;  */
+    /*height: 320px;  *//*
     background-image: url("img/bgIphone4.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -399,4 +400,4 @@ footer {
     padding: 5px;
 }
 
-}
+}*/
