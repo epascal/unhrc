@@ -85,18 +85,97 @@ a:hover {color:#1D498B;}  /* mouse over link */
 a:active {color:#1D498B;}  /* selected link */
 
 /*IPAD*/
-
-
-@media only screen 
-and (device-aspect-ratio: 3/4)
-or (device-aspect-ratio: 4/3)   {
-
 @media only screen and (device-aspect-ratio: 4/3)   {
 
 body {
-    height: 100%; 
+    width: 1024px;
+	height:100%;
+    background-image: url("img/bg.png");
+	background-repeat:no-repeat;
+    background-color: #5B92E5;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+header {
+    height: 380px;
+}
+
+.hexagon { 
+    width: 170px; 
+    height: 90px; 
+    background-color: #1D498B; 
+    position: relative; 
+} 
+.hexagon:before { 
+    content: ""; 
+    position: absolute; 
+    top: -45px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 85px solid transparent; 
+    border-right: 85px solid transparent; 
+    border-bottom: 45px solid #1D498B; 
+} 
+
+.hexagon:after { 
+    content: ""; 
+    position: absolute; 
+    bottom: -45px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 85px solid transparent; 
+    border-right: 85px solid transparent; 
+    border-top: 45px solid #1D498B; 
+}
+.program {
+    margin-right:10px;
+    float:left;
+}
+.report {
+    margin-right:10px;
+    float:left;
+}
+.pratical {
+    float: right;
+}
+#buttons_hexa {
+    width: 530px;
+    margin:auto;
+}
+#buttons_hexa_bot {
+    clear: both;
+    width: 350px;
+    margin:auto;
+    padding-top: 52px;
+}
+.webcast {
+    margin-right:10px;
+    float:left;    
+}
+
+article div a span  {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    width: 940px;
+    margin: auto;
+    padding-top: 100px;
 }
 }
+
+@media only screen 
+and (device-aspect-ratio: 3/4)   {
+
+
 
 body {
     width: 1024px;
@@ -186,16 +265,119 @@ footer {
 
 /* Iphone <5*/
 
-@media only screen 
-and (device-aspect-ratio: 2/3)
-or (device-aspect-ratio: 3/2) { 
 
 @media only screen 
 and (device-aspect-ratio: 3/2) { 
+
 body {
+    width: 480px;
+	height:100%;
+    background-image: url("img/bgIphone4.png");
+	background-repeat:no-repeat;
+    background-color: #5B92E5;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+    height: 140px;
+}
+
+.hexagon { 
+    width: 94px; 
+    height: 50px; 
+    background-color: #1D498B; 
+    position: relative; 
+} 
+.hexagon:before { 
+    content: ""; 
+    position: absolute; 
+    top: -25px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 47px solid transparent; 
+    border-right: 47px solid transparent; 
+    border-bottom: 25px solid #1D498B; 
+} 
+
+.hexagon:after { 
+    content: ""; 
+    position: absolute; 
+    bottom: -25px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 47px solid transparent; 
+    border-right: 47px solid transparent; 
+    border-top: 25px solid #1D498B; 
+}
+.program {
+    margin-right:5px;
+    float:left;
+}
+.report {
+    margin-right:5px;
+    float:left;
+}
+.pratical {
+    float: right;
+}
+#buttons_hexa {
+    width: 295px;
+    margin:auto;
+}
+#buttons_hexa_bot {
+    clear: both;
+    width: 195px;
+    margin:auto;
+    padding-top: 30px;
+}
+.webcast {
+    margin-right:5px;
+    float:left;    
+}
+article div a span  {
+    width: 55px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+	font-size:11px;
+}
+footer {
+    width: 522px;
+    margin: auto;
+    padding-top: 101px;
+}
+.link-social {
+    display: block;
+    width: 100%;
     height: 100%;
+    text-decoration: none;
+}
+
+.box-news {
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+	overflow: auto;
+    border: 1px solid #FFFFFF;
+    height: 80px;
+    margin-top: 10px;
+}
+.box-news p {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
 }
 }
+
+@media only screen 
+and (device-aspect-ratio: 2/3) { 
+
+
 
 body {
     width: 480px;
@@ -305,17 +487,121 @@ footer {
 
 
 /*Iphone5*/
-@media only screen 
-and (device-aspect-ratio: 40/71)
-or (device-aspect-ratio: 71/40) {
- 
+
  @media only screen 
 and (device-aspect-ratio: 71/40) {
+
+
  
 body {
-    height: 100%;
-	}
+    width: 568px;
+	height:100%;
+    background-image: url("img/bgIphone5.png");
+	background-repeat:no-repeat;
+    background-color: #5B92E5;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
+
+header {
+    height: 140px;
+}
+
+.hexagon { 
+    width: 94px; 
+    height: 50px; 
+    background-color: #1D498B; 
+    position: relative; 
+} 
+.hexagon:before { 
+    content: ""; 
+    position: absolute; 
+    top: -25px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 47px solid transparent; 
+    border-right: 47px solid transparent; 
+    border-bottom: 25px solid #1D498B; 
+} 
+
+.hexagon:after { 
+    content: ""; 
+    position: absolute; 
+    bottom: -25px; 
+    left: 0; 
+    width: 0; 
+    height: 0; 
+    border-left: 47px solid transparent; 
+    border-right: 47px solid transparent; 
+    border-top: 25px solid #1D498B; 
+}
+.program {
+    margin-right:5px;
+    float:left;
+}
+.report {
+    margin-right:5px;
+    float:left;
+}
+.pratical {
+    float: right;
+}
+#buttons_hexa {
+    width: 295px;
+    margin:auto;
+}
+#buttons_hexa_bot {
+    clear: both;
+    width: 195px;
+    margin:auto;
+    padding-top: 30px;
+}
+.webcast {
+    margin-right:5px;
+    float:left;    
+}
+article div a span  {
+    width: 55px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+	font-size:11px;
+}
+footer {
+    width: 522px;
+    margin: auto;
+    padding-top: 101px;
+}
+.link-social {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.box-news {
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+	overflow: auto;
+    border: 1px solid #FFFFFF;
+    height: 80px;
+    margin-top: 10px;
+}
+.box-news p {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+}
+
+@media only screen 
+and (device-aspect-ratio: 40/71) {
+ 
+
  
 body {
     width: 568px;
