@@ -86,13 +86,12 @@ a:active {color:#1D498B;}  /* selected link */
 
 /*IPAD*/
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
+and (device-width : 1024px) 
+and (device-height : 768px) {
 
 body {
     width: 1024px;
-	height:100%;
+	
     background-image: url("img/bg.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -176,14 +175,14 @@ footer {
 }
 
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
+and (device-width : 768px) 
+and (device-height : 1024px) {
 
 
 
 body {
     width: 1024px;
+	height:100%;
     background-image: url("img/bg.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -272,13 +271,12 @@ footer {
 
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
-and (orientation : landscape) {
+and (device-width : 480px) 
+and (device-height : 320px) {
 
 body {
     width: 480px;
-	height:100%;
+	
     background-image: url("img/bgIphone4.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -382,14 +380,14 @@ footer {
 }
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
-and (orientation : portrait) {
+and (device-width : 320px) 
+and (device-height : 480px) {
 
 
 
 body {
     width: 480px;
+	height:100%;
     background-image: url("img/bgIphone4.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -498,15 +496,14 @@ footer {
 /*Iphone5*/
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape) {
+and (device-width : 568px) 
+and (device-height : 320px)  {
 
 
  
 body {
     width: 568px;
-	height:100%;
+	
     background-image: url("img/bgIphone5.png");
 	background-repeat:no-repeat;
     background-color: #5B92E5;
@@ -610,9 +607,8 @@ footer {
 }
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) {
+and (device-width : 320px) 
+and (device-height : 568px) {
  
 
  
@@ -632,7 +628,7 @@ header {
 .hexagon { 
     width: 94px; 
     height: 50px; 
-    background-color: #ff0000/*1D498B*/; 
+    background-color: #1D498B; 
     position: relative; 
 } 
 .hexagon:before { 
