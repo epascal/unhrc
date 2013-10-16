@@ -85,7 +85,10 @@ a:hover {color:#1D498B;}  /* mouse over link */
 a:active {color:#1D498B;}  /* selected link */
 
 /*IPAD*/
-@media only screen and (device-aspect-ratio: 4/3)   {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
 
 body {
     width: 1024px;
@@ -173,7 +176,9 @@ footer {
 }
 
 @media only screen 
-and (device-aspect-ratio: 3/4)   {
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
 
 
 
@@ -267,7 +272,9 @@ footer {
 
 
 @media only screen 
-and (device-aspect-ratio: 3/2) { 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
 
 body {
     width: 480px;
@@ -375,7 +382,9 @@ footer {
 }
 
 @media only screen 
-and (device-aspect-ratio: 2/3) { 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) {
 
 
 
@@ -488,8 +497,10 @@ footer {
 
 /*Iphone5*/
 
- @media only screen 
-and (device-aspect-ratio: 71/40) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
 
 
  
@@ -599,7 +610,9 @@ footer {
 }
 
 @media only screen 
-and (device-aspect-ratio: 40/71) {
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
  
 
  
